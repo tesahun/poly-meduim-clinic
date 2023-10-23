@@ -2,7 +2,7 @@ import React from "react";
 
 const Poli = () => {
   return (
-    <div className="min-h-max w-full bg-slate-400 overflow-hidden pb-10">
+    <div className="min-h-max w-screen bg-slate-400 overflow-hidden pb-10">
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-center text-3xl font-semibold text-white mt-5">
           የፊንጢጣ ኪንታሮት (Hemorrhoid)

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Testi = () => {
   return (
-    <div className="w-full h-[400px] overflow-hidden bg-yellow-700/30">
+    <div className="w-screen h-[400px] overflow-hidden bg-yellow-700/30">
       <div className="flex justify-center items-center h-full">
         <Carousel showArrows={true} showStatus={false} showThumbs={false}>
           <div className="flex flex-col items-center p-10">

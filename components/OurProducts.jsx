@@ -8,14 +8,21 @@ const OurProducts = () => {
   const [text] = useTypewriter({
     words: [
       "ሀዋሳ ሀይቅ ፓሊ መካከለኛ ክሊኒክ፡ ",
-      "ከምንሰጣችው ህክምናዎች በተጨማሪ በሰገራ መውጫ የፊንጢጣ ኪንታሮት፣ የሚደማ፣ የሚያሳክክና ወገብን የሚያም ያለ ቀዶ ጥገና አክም ማዳን!",
+      "ከምንሰጣችው ህክምናዎች በተጨማሪ ",
+      "በሰገራ መውጫ የፊንጢጣ ኪንታሮት፣",
+      "የሚደማ፣ የሚያሳክክና ወገብን የሚያም ",
+      "ያለ ቀዶ ጥገና አክም ማዳን!",
+      "ያለ ቀዶ ጥገና አክም ማዳን!",
       "የዚህ እህት ድርጅት በሆነው...",
-      "ታም-ዳግ፡ መካከለኛ የጥርስ ህክምና ክሊኒክ፣ ዘመኑ ባፈራቸው የህክምና መሳርያዎች በመጠቀም ዘርፈ ብዙ የጥርስ ህክምና",
+      "ታም-ዳግ፡ መካከለኛ የጥርስ ህክምና ክሊኒክ፣  ዘርፈ ",
+      "ብዙ የጥርስ ህክምና",
+      "ዘመኑ ባፈራቸው የህክምና መሳርያዎች በመጠቀም",
+      "ዘርፈ ብዙ የጥርስ ህክምና",
     ],
     loop: 0,
     typeSpeed: 10,
     deleteSpeed: 10,
-    delaySpeed: 3000,
+    delaySpeed: 2000,
   });
 
   useEffect(() => {
@@ -23,13 +30,13 @@ const OurProducts = () => {
   });
 
   return (
-    <div className="w-full h-screen flex justify-center items-center overflow-hidden">
-      <div className="lg:flex lg:gap-28">
+    <div className="w-screen max-h-screen mt-[50px] flex justify-center items-center overflow-hidden ">
+      <div className="lg:flex lg:gap-20 sm:pb-[50px]">
         <div>
-          <h1 className="text-4xl uppercase">አገልግሎታችን</h1>
+          <h1 className="text-3xl uppercase text-center ">አገልግሎታችን</h1>
           <div className=" flex flex-col mt-2 md:justify-center sm:w-[400px] sm:h-[150px] md:w-[400px]">
-            <h1 className="font-semibold text-3xl text-yellow-500 flex uppercase">
-              <span>{text}</span>
+            <h1 className="font-semibold text-lg md:text-2xl text-yellow-500 flex justify-center items-center uppercase h-10">
+              <span className="text-center sm:max-w-200px">{text}</span>
             </h1>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Accord = (props) => {
 
   return (
     <div
-      className={`bg-slate-200 p-5 border mb-2 border-slate-500 rounded-md w-[400px] duration-500 group ${
+      className={`bg-slate-200 p-5 border mb-2 border-slate-500 rounded-md w-[400px] duration-500 overflow-hidden group ${
         item.active === 1 ? "is-active bg-white" : ""
       }`}
     >

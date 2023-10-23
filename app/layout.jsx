@@ -3,10 +3,10 @@ import Navbar from "@components/Navbar";
 
 import "@styles/global.css";
 
-
 export const metadata = {
   title: "Hawassa Haike poly meduim clinic ",
-
+  name: "viewport",
+  content: "width=device-width, initial-scale=1",
   description: "Clinic in Hawassa",
 };
 

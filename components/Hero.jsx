@@ -5,8 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Link from "next/link";
 import Footer from "./Footer";
 
-
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useRef } from "react";
@@ -37,7 +35,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="w-full h-[800px] z-50 overflow-hidden">
+    <div className="w-screen h-[800px] z-50 overflow-hidden">
       <div className="relative">
         <Carousel
           showThumbs={false}
@@ -49,8 +47,8 @@ const Hero = () => {
           transitionTime={1000}
           fade
         >
-          <div className="bg-cover bg-center w-full  bg-img-bg h-[800px]"></div>
-          <div className="bg-cover bg-center w-full bg-cls-bg h-[800px]"></div>
+          <div className="bg-cover bg-center w-screen  bg-img-bg h-[800px]"></div>
+          <div className="bg-cover bg-center w-screen bg-cls-bg h-[800px]"></div>
         </Carousel>
         <div
           className="w-full h-full absolute top-[30px] flex flex-col justify-center items-center z-40"
@@ -61,16 +59,15 @@ const Hero = () => {
               poly
             </h1>
           </div>
-          <h1 className="uppercase text-3xl font-extrabold text-yellow-500 text-shadow-lg">
+          <h1 className="uppercase text-center text-3xl font-extrabold text-yellow-500 text-shadow-lg">
             ሐዋሳ ሀይቅ ፓሊ መካከለኛ ክሊኒክ
           </h1>
 
-          <div className="relative ">
-            <div className="bg-logo-2 bg-cover bg-center w-[80px] h-[80px] ml-8 mt-5"></div>
-            <h1 className="text-4xl uppercase font-bold text-white absolute bottom-20 left-[120px]">
-              tam-dag
-            </h1>
-            <h1 className="uppercase text-3xl font-extrabold text-yellow-500 text-shadow-lg pb-6">
+          <div className="relative">
+            <div className="w-screen flex justify-center items-center">
+              <div className="bg-logo-2 bg-cover bg-center w-[70px] h-[70px] "></div>
+            </div>
+            <h1 className="uppercase text-center text-3xl font-extrabold text-yellow-500 text-shadow-lg pb-6">
               ታም-ዳግ መካከለኛ የጥርስ ህክምና ክሊኒክ
             </h1>
           </div>

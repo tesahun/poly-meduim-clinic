@@ -8,16 +8,16 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-800 w-full max-h-max text-slate-50">
+    <div className="bg-slate-800 w-full max-h-max text-slate-50 overflow-hidden">
       <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-center lg:gap-10">
         <div>
-          <div className="mt-10 md:flex items-center gap-5 mb-10">
-            <div className="flex sm:flex-col lg:gap-3">
-              <p className="text-center lg:flex items-center mt-4">
+          <div className="">
+            <div className="md:flex">
+              <p className="text-center">
                 ቁ.2 ሀይቅ ዳር ክ/ከተማ ቀበሌ 05 <br />
                 ፍቼ ጨምበላላ ጉዱማሌ ፊት ለፊት
               </p>
-              <div className="gmap mt-5 rounded-lg">
+              <div className="gmap mt-5 rounded-lg flex justify-center items-center">
                 <div className=" rounded-lg shadow-white">
                   <iframe
                     width="400"
@@ -31,8 +31,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="flex sm:flex-col lg:gap-3">
-              <p className="text-center lg:flex items-center mt-4">
+            <div className="md:flex">
+              <p className="text-center">
                 ቁ.2 ጥቁር ውሃ ፍተሻው አጠገብ ዳቶ ቀበሌ <br />
                 ኦል ሊቢያ ነዳጅ ማደያ ህንፃ ላይ(የቀድሞ አጂፕ)
               </p>

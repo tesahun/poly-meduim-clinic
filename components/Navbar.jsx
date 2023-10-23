@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-50">
+    <div className="fixed left-0 top-0 w-screen z-50 overflow-hidden">
       <nav className="bg-gray-800">
         <div className="max-w-7xl px-1 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 ">
@@ -49,7 +49,10 @@ const Navbar = () => {
                   FAQ
                 </Link>
 
-                <button onClick={openModal} className=" py-2 px-4 hover:bg-yellow-300 hover:border-transparent rounded border border-slate-200 text-slate-100 font-semibold hover:text-black">
+                <button
+                  onClick={openModal}
+                  className=" py-2 px-4 hover:bg-yellow-300 hover:border-transparent rounded border border-slate-200 text-slate-100 font-semibold hover:text-black"
+                >
                   Applay now!
                 </button>
               </div>
@@ -94,7 +97,6 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-      
     </div>
   );
 };
