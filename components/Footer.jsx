@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="">
             <div className="md:flex">
               <p className="text-center">
-                ቁ.2 ሀይቅ ዳር ክ/ከተማ ቀበሌ 05 <br />
+                ቁ.1 ሀይቅ ዳር ክ/ከተማ ቀበሌ 05 <br />
                 ፍቼ ጨምበላላ ጉዱማሌ ፊት ለፊት
               </p>
               <div className="gmap mt-5 rounded-lg flex justify-center items-center">

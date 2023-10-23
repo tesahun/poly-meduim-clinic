@@ -30,7 +30,7 @@ const WhatOfer = () => {
           </p>
         </div>
         <div
-          className="bg-care-1 bg-cover bg-center p-5 w-[450px] h-[350px] mt-5 rounded-lg shadow-xl flex justify-center items-center "
+          className="bg-care-1 bg-cover bg-center p-5 w-[350px] h-[350px] mt-5 rounded-lg shadow-xl flex justify-center items-center "
           data-aos="fade-left"
         ></div>
       </div>
