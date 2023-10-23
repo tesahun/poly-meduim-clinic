@@ -2,7 +2,7 @@ import Banner from "@components/Banner";
 import { GiWorld } from "react-icons/gi";
 import { AiOutlineTeam } from "react-icons/ai";
 import { FaHandHoldingHeart } from "react-icons/fa";
-import { GrServices } from "react-icons/gr";
+
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <Banner className="relative" />
       <div className="h-[400px] w-full flex flex-col justify-center items-center absolute top-0">
         <h1 className="text-4xl uppercase font-bold text-yellow-500 text-shadow-lg ">
-          About Us
+          ስለ እኛ ...
         </h1>
       </div>
       <div className="w-full flex flex-col justify-center items-center container mx-auto">

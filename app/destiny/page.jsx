@@ -3,7 +3,7 @@ import Poli from "@components/Poli";
 
 const PageDe = () => {
   return (
-    <div className="min-h-max w-full text-black ">
+    <div className="min-h-max text-black w-screen overflow-hidden">
       <Banner className="relative" />
       <div className="h-[400px] w-full flex flex-col justify-center items-center absolute top-0">
         <h1 className="text-4xl uppercase font-bold text-yellow-500 text-shadow-lg ">
@@ -16,7 +16,7 @@ const PageDe = () => {
         <div>
           <h1 className="text-3xl font-semibold mt-5">የምናቀርባቸው የጥርስ ህክምናዎች</h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 gap-2 pt-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 pt-5">
           <div>
             <div className="w-[230px] h-[270px] shadow-2xl border-2 border-slate-500/50 rounded-lg">
               <div className="bg-teeth-bg bg-cover bg-center w-full h-full rounded-lg"></div>

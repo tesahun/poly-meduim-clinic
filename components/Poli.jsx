@@ -8,9 +8,10 @@ const Poli = () => {
           የፊንጢጣ ኪንታሮት (Hemorrhoid)
         </h1>
         <div className="mt-5 md:flex gap-5">
-          <p className="w-[400px] text-center sm:pb-5 flex justify-center items-center">
-            በ ሀዋሳ ሀይቅ ፖሊ መካከለኛ ክሊኒክ ከምንሰጣቸው ዘርፈብዙ ከሆኑ አጠቃላይ ህክምናዎች በተጨማሪ በሰገራ
-            መውጫ ወይም ፊንጢጣ ላይ የሚወጣን ኪንታሮት ያለ ቀዶ ህክምና አክመን እናድናለን፡፡
+          <p className="w-[400px] text-center sm:pb-5 flex justify-center items-center overflow-hidden">
+            በ ሀዋሳ ሀይቅ ፖሊ መካከለኛ ክሊኒክ ከምንሰጣቸው ዘርፈብዙ <br />
+            ከሆኑ አጠቃላይ ህክምናዎች በተጨማሪ <br />
+            በሰገራ መውጫ ወይም ፊንጢጣ ላይ የሚወጣን ኪንታሮት <br />ያለ ቀዶ ህክምና አክመን እናድናለን፡፡
           </p>
           <div className="border-1 border-slate-200">
             <div className="bg-poly-1 bg-cover bg-center h-[300px] w-[400px] rounded-lg shadow-lg"></div>
