@@ -80,7 +80,7 @@ const Hero = () => {
             onClick={openModal}
             className="mt-16 py-2 px-4 hover:bg-yellow-300 hover:border-transparent rounded border border-slate-200 text-slate-100 font-semibold hover:text-black z"
           >
-            <Link href="">Applay Now!</Link>
+            Applay Now!
           </button>
           <MyForm isOpen={isModalOpen} onClose={closeModal} />
         </div>
