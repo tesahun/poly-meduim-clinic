@@ -57,23 +57,22 @@ const Footer = () => {
             Get in Touch
           </h1>
           <div className="flex justify-center gap-[50px] mt-10">
+             <a href="https://www.facebook.com/groups/2604465439717035/?ref=share">
             <FaFacebook
-              size={25}
+              size={35}
               style={{ color: "#0000FF" }}
               className="icon"
             />
+          </a>
 
-            <BsWhatsapp
-              size={25}
-              style={{ color: "#008000" }}
-              className="icon"
-            />
-
+          <BsWhatsapp size={35} style={{ color: "#008000" }} className="icon" />
+          <a href="https://t.me/+sVhBVs3u7Wg3NjFk">
             <FaTelegramPlane
-              size={25}
+              size={35}
               style={{ color: "#4682B4" }}
               className="icon"
             />
+          </a>
           </div>
 
           <div className="flex flex-col items-center mt-5">
