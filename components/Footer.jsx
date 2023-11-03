@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="gmap mt-5 rounded-lg flex justify-center items-center">
                 <div className=" rounded-lg shadow-white">
                   <iframe
-                    width="400"
+                    width="350"
                     height="300"
                     frameBorder="0"
                     scrolling="no"
@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="gmap mt-5 rounded-lg">
                 <div className=" rounded-lg shadow-white">
                   <iframe
-                    width="400"
+                    width="350"
                     height="300"
                     frameBorder="0"
                     scrolling="no"
